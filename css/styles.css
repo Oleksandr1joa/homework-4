@@ -107,13 +107,13 @@ font-size: var(--primari-font-logo-size);
 line-height: var(--primari-font-logo-height);
 /* identical to box height */
 
-display: var(--primari-font-logo-display);
-align-items: var(-primari-font-logo-items);
+/* display: var(--primari-font-logo-display); */
+/* align-items: var(--primari-font-logo-items); */
 letter-spacing: var(--primari-font-logo-spacing);
 text-transform: var(--primari-font-logo-transform);
 
 /* IRIS */;
-margin-right: 70px;
+/* margin-right: 70px; */
 }
 .page-container-head {
     display: flex;
@@ -363,24 +363,22 @@ padding-top:  32px;
     padding-bottom: 100px;
     /* margin-top: 120px; */
     margin-left: auto;
-    margin-right: auto; 
-
+    margin-right: auto;
 }
 
 .container-footer-box {
-    
     margin-right: auto;
-margin-left: 156px;
-    /* text-align: left; */
-    /* width: 1158px; */
-    /* margin-left: 156px; */
-    /* margin-right: auto; */
-    max-width: 264px; 
+    width: 1158px;
+    margin-left: auto;
+    padding: 0 15px;
 }
 .footer-box-text {
     margin-top: 16px;
     
 
+}
+.footer-text {
+    max-width: 264px;
 }
 
 /*======================/FOOTER===========================*/

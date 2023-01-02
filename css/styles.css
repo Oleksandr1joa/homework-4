@@ -79,6 +79,8 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .size-head {
     width: 1440px;
@@ -93,6 +95,8 @@ body {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
 }
 .menu {
     display:flex ;
@@ -206,15 +210,17 @@ letter-spacing: 0.02em;
 }
 
 .work-scroll {
+    
     padding-top:  120px;
     padding-bottom: 120px;
-    display: flex;    
-    justify-content: center;
+    
 }
 .size-body-app {
     width: 1158px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px;    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .list-bord-scroll {
@@ -288,11 +294,11 @@ border-radius: 4px;
 }
 /*======================PORTFOLIO=========================*/
 .line-portfolio {
-width: 1440px;
-left: 0px;
-top: 0px;
-margin-top: 0em;
-margin-bottom: 0em;
+    width: 1440px;
+padding-top: 24px;
+    padding-bottom: 24px;
+margin-left: auto;
+margin-right: auto;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
 }
@@ -318,8 +324,6 @@ border-bottom: 1px solid #E7E9FC;
     overflow: hidden;
 }
 .container-app {
-    padding-top: 48px;
-    /* padding-bottom: 32px; */
     display: flex;
     flex-wrap: wrap;    
     gap: 24px;
@@ -352,18 +356,26 @@ padding-top:  32px;
 
 /*======================FOOTER===========================*/
 .footer-back {
+    
     background: #2E2F42;    
     /* padding-left: 155px; */
     padding-top: 100px;
     padding-bottom: 100px;
     /* margin-top: 120px; */
-    
+    margin-left: auto;
+    margin-right: auto; 
+
 }
 
-.footer-box {
-    height: 110px;
-    width: 264px; 
-    text-align: left;
+.container-footer-box {
+    
+    margin-right: auto;
+margin-left: 156px;
+    /* text-align: left; */
+    /* width: 1158px; */
+    /* margin-left: 156px; */
+    /* margin-right: auto; */
+    max-width: 264px; 
 }
 .footer-box-text {
     margin-top: 16px;

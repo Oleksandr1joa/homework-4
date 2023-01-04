@@ -67,6 +67,7 @@ body {
 }
 .color-fourth {
     color: var(--text-color-fourth);
+    
 }
 .color-footer {
     color: var(--text-color-footer);
@@ -159,6 +160,8 @@ justify-content: center;
 /*=====================COMPONENTS========================*/
 
 .main-head {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+    background-size: cover;
     background-color: #2E2F42;
     justify-content: center;
 display: flex;
@@ -180,6 +183,13 @@ letter-spacing: 0.02em;
 .list-size {
     width: 264px;
     gap: 24px;
+}
+.ico-list {
+}
+.icon-list-border {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
 }
 
 .job-illumination {

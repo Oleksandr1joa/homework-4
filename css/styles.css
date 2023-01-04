@@ -184,8 +184,6 @@ letter-spacing: 0.02em;
     width: 264px;
     gap: 24px;
 }
-.ico-list {
-}
 .icon-list-border {
     display: flex;
     justify-content: center;
@@ -302,6 +300,15 @@ border-radius: 4px;
     background-color:#4D5AE5;
     color:#FFFFFF;
 }
+/*======================OUR TEAM=========================*/
+.social-list-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--text-color-logo);
+}
+
+/*======================/OUR TEAM=========================*/
 /*======================PORTFOLIO=========================*/
 .line-portfolio {
     width: 1440px;

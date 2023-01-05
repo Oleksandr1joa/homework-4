@@ -447,15 +447,14 @@ padding-top:  32px;
     max-width: 264px;
 }
 .footer-item-text {
-    color: #FFFFFF;
-    margin-left: 270px;    
+    color: #FFFFFF;   
 }
 .footer-list {
     display: flex;
 }
-.footer-logo {
+/* .footer-logo {
     height: 22px;
-}
+} */
 .footer-list-icons {
     margin-left: 120px;
 }

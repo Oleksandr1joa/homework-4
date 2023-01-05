@@ -353,7 +353,6 @@ border-radius: 4px;
     border: 1px solid #8E8F99;
 border-radius: 4px;
 fill: #8E8F99;
-
 }
 
 
@@ -453,9 +452,7 @@ padding-top:  32px;
     display: flex;
     gap: 16px;
 }
-/* .footer-logo {
-    height: 22px;
-} */
+
 .footer-list-icons {
     margin-left: 120px;
 }

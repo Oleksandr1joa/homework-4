@@ -451,6 +451,7 @@ padding-top:  32px;
 }
 .footer-list {
     display: flex;
+    gap: 16px;
 }
 /* .footer-logo {
     height: 22px;

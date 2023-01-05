@@ -460,4 +460,17 @@ padding-top:  32px;
     margin-left: 120px;
 }
 
+.footer-social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+    background-color: #31D0AA;
+}
 /*======================/FOOTER===========================*/

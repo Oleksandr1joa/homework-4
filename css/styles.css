@@ -210,7 +210,12 @@ letter-spacing: 0.02em;
     display: flex;
     gap: 24px;
 }
-
+.description-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
 /*=====================/DESCRIPTION========================*/
 /*=======================MAIN==============================*/
 .container-list {
@@ -317,7 +322,41 @@ border-radius: 4px;
     background-color: var(--text-color-logo);
 }
 
+
 /*======================/OUR TEAM=========================*/
+/*======================Customers=========================*/
+.customers-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 72px;
+    margin-bottom: 120px;
+    
+}
+
+.customer-list-link-icon:hover,
+.customer-list-link-icon:focus {
+    fill:  #4D5AE5;
+    border-color: #4D5AE5;
+}
+.castomer-item-list {
+    display: flex;
+    justify-content: center;
+}
+
+.customer-list-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+border-radius: 4px;
+fill: #8E8F99;
+
+}
+
+/*======================/Customers=========================*/
 /*======================PORTFOLIO=========================*/
 .line-portfolio {
     width: 1440px;
@@ -398,6 +437,7 @@ padding-top:  32px;
     margin-left: auto;
     padding: 0 15px;
 }
+
 .footer-box-text {
     margin-top: 16px;
     
@@ -406,5 +446,15 @@ padding-top:  32px;
 .footer-text {
     max-width: 264px;
 }
+.footer-item-text {
+    color: #FFFFFF;    
+}
+.footer-list {
+    display: flex;
 
+
+}
+.footer-logo {
+    height: 22px;
+}
 /*======================/FOOTER===========================*/

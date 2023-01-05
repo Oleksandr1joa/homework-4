@@ -356,6 +356,7 @@ fill: #8E8F99;
 
 }
 
+
 /*======================/Customers=========================*/
 /*======================PORTFOLIO=========================*/
 .line-portfolio {
@@ -440,21 +441,23 @@ padding-top:  32px;
 
 .footer-box-text {
     margin-top: 16px;
-    
+    }
 
-}
 .footer-text {
     max-width: 264px;
 }
 .footer-item-text {
-    color: #FFFFFF;    
+    color: #FFFFFF;
+    margin-left: 270px;    
 }
 .footer-list {
     display: flex;
-
-
 }
 .footer-logo {
     height: 22px;
 }
+.footer-list-icons {
+    margin-left: 120px;
+}
+
 /*======================/FOOTER===========================*/
